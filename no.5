@@ -1,0 +1,18 @@
+ #include <stdio.h> 
+ 
+ int main()
+ {
+ 	int a = 10;
+ 	int* b = &a;
+	*b = 20;
+	 printf("%d\n",a);
+	 printf("%p\n",a);
+	 printf("%p\n",*b);
+	 double c = 0.25;
+	 double* n = &c;
+	 printf("%d\n",sizeof (c));
+	 printf("%lf\n",c);//%d\lf用来打印double 
+	 printf("%lf\n",*n);
+	 printf("%p\n",c);
+	 printf("%p\n",*n);
+ 	return 0; 
